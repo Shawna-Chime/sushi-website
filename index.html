@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Get Sushi at Your Comfort</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -70,7 +71,7 @@
     </header>
     <main>
       <section class="home-section">
-        <div class="home-content">
+        <div class="home-content" data-aos="fade-down">
           <h1 class="home-title">
             Sushi Bliss, Every Roll A Flavorful <span>Kiss</span>
           </h1>
@@ -88,7 +89,7 @@
             ></a>
           </div>
         </div>
-        <div class="home-image">
+        <div class="home-image" data-aos="fade-up">
           <div class="speech-bubble">
             <p>Best Sushi Ever!</p>
           </div>
@@ -127,7 +128,7 @@
           </div>
         </div>
       </section>
-      <section class="category-section">
+      <section class="category-section" data-aos="fade-down">
         <div class="category-title">
           <h4>CUSTOMERS FAVOURITE</h4>
           <h2>Popular Categories</h2>
@@ -155,7 +156,7 @@
           </div>
         </div>
       </section>
-      <section class="special-dish-section">
+      <section class="special-dish-section" data-aos="fade-down">
         <div class="special-dish-title">
           <h4>SPECIAL DISHES</h4>
           <h2>Best Dishes From Our Menu</h2>
@@ -227,7 +228,7 @@
         </div>
       </section>
       <section class="testimonial-section">
-        <div class="testimonial-blurb">
+        <div class="testimonial-blurb" data-aos="fade-right">
           <div class="testimonial-image">
             <img src="./assets/images/testimonial 2.png" alt="chef" />
             <div class="testimonial-speech-bubble">
@@ -235,7 +236,7 @@
             </div>
           </div>
         </div>
-        <div class="testimonial-content">
+        <div class="testimonial-content" data-aos="fade-left">
           <div class="testimonial-title">
             <h4>TESTIMONIALS</h4>
             <h2>What Our Customers Say About Us</h2>
@@ -280,7 +281,7 @@
         </div>
       </section>
       <section class="services-section">
-        <div class="services-content">
+        <div class="services-content" data-aos="fade-left">
           <div class="services-title">
             <h4>OUR STORY AND SERVICES</h4>
             <h2>Our Culinary Journey And Services</h2>
@@ -296,7 +297,7 @@
             <a href="#">Explore</a>
           </div>
         </div>
-        <div class="services-card-container">
+        <div class="services-card-container" data-aos="fade-right">
           <div class="services-card card-one">
             <i class="ri-bowl-line"></i>
             <h3>CATERING</h3>
@@ -319,7 +320,7 @@
           </div>
         </div>
       </section>
-      <section class="bottom-menu-section">
+      <section class="bottom-menu-section" data-aos="fade-down">
         <div class="bottom-menu-title">
           <div class="nav-logo"><span class="title-letter">S</span>ushi</div>
           <div class="bottom-menu-text">
@@ -355,7 +356,7 @@
           </div>
         </div>
       </section>
-      <section class="footer-section">
+      <section class="footer-section" data-aos="fade-down">
         <div class="footer-icons">
           <i class="ri-facebook-circle-line"></i>
           <i class="ri-twitter-x-line"></i>
@@ -370,5 +371,9 @@
         </div>
       </section>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
